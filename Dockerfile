@@ -1,4 +1,4 @@
-FROM lexsys/base:2016-08-21-1257
+FROM lexsys/base:2016-08-22-0808
 MAINTAINER Ernesto Celis <ernesto@tic.uno>
 
 
