@@ -1,4 +1,4 @@
-FROM lexsys/base:harley
+FROM lexsys/base:nigma
 MAINTAINER Ernesto Celis <ernesto@tic.uno>
 
 COPY src /home/lexusr
