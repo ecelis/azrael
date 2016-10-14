@@ -1,4 +1,4 @@
-FROM lexsys/base:nigma
+FROM tic1/lexsys_base:nigma
 MAINTAINER Ernesto Celis <ernesto@tic.uno>
 
 COPY src /home/lexusr
