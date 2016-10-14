@@ -1,6 +1,6 @@
 # Azrael
 
-Build, ship and run LexSys Docker Main Image.
+Build, ship and run LexSys Docker main image.
 
 
 ## Repository layout
@@ -19,7 +19,9 @@ Build, ship and run LexSys Docker Main Image.
 ## Run
 
 
-    docker run -ti -v $(pwd)/deployment:/home/lexusr/deployment --name <env> lexsys/main[:tag] /bin/bash
+    docker run -ti --name <env> lexsys/main:nigma \
+      -v $(pwd)/src/deployment:/home/lexusr \
+      -p 127.0.0.1:3000:3000 -p 127.0.0.1:3001:3001
 
 
 

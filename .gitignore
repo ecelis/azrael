@@ -3,4 +3,8 @@
 .*.sw*
 *.ini
 *.log
-src
+src/deployment
+src/EDITOR
+src/sloth
+src/wpride
+src/wrath
