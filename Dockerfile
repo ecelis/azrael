@@ -11,6 +11,6 @@ WORKDIR /home/lexusr
 USER lexusr
 RUN ["/home/lexusr/deployment/build.sh", "bootstrap"]
 
-ENTRYPOINT ["/home/lexusr/deployment/run.sh"]
+ENTRYPOINT ["/bin/bash"]
 
-CMD ["start"]
+#CMD ["/home/lexusr/deployment/run.sh start"]
