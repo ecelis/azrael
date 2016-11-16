@@ -1,8 +1,8 @@
-FROM tic1/lexsys_base:nigma
+FROM tic1/lexsys_base:scarecrow-rc2
 MAINTAINER Ernesto Celis <ernesto@tic.uno>
 
 COPY src /home/lexusr
-RUN chown -R lexusr:lexusr /home/lexusr
+RUN chmod 777 /tmp ; chown -R lexusr:lexusr /home/lexusr 
 
 # http, https, API, Editor
 EXPOSE 80 443 3000 3001
