@@ -9,8 +9,9 @@ EXPOSE 80 443 3000 3001
 
 WORKDIR /home/lexusr
 USER lexusr
+ENV LEXENV="sigicam_pje"
 RUN ["/home/lexusr/deployment/build.sh", "bootstrap"]
 
 ENTRYPOINT ["/bin/bash"]
 
-#CMD ["/home/lexusr/deployment/run.sh start"]
+CMD ["/srv/deployment/run.sh", "start"]
