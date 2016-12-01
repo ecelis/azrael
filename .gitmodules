@@ -1,0 +1,15 @@
+[submodule "src/deployment"]
+	path = src/deployment
+	url = git@github.com:ecelis/vainglory.git
+[submodule "src/EDITOR"]
+	path = src/EDITOR
+	url = git@github.com:admin-tic/EDITOR.git
+[submodule "src/sloth"]
+	path = src/sloth
+	url = git@github.com:admin-tic/sloth.git
+[submodule "src/wpride"]
+	path = src/wpride
+	url = git@github.com:admin-tic/wpride.git
+[submodule "src/wrath"]
+	path = src/wrath
+	url = git@github.com:admin-tic/wrath.git

@@ -1,4 +1,4 @@
-FROM tic1/lexsys_base:scarecrow-rc2
+FROM tic1/lexsys_base:scarecrow
 MAINTAINER Ernesto Celis <ernesto@tic.uno>
 
 COPY src /home/lexusr
